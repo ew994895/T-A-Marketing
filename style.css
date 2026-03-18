@@ -56,9 +56,23 @@ img {
 
 .logo {
     font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: var(--peach);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    line-height: 1;
+}
+
+.logo-mark {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+.logo-text {
     color: var(--peach);
 }
 
